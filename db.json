@@ -4,25 +4,113 @@
   "description": "Teste os seus conhecimentos sobre o famoso jogo League Of Legends",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
-      "answer": 2,
+      "image": "https://media.giphy.com/media/U4vEhMLEdu4rjhDpJr/giphy.gif",
+      "title": "Quando o jogo League of Legends foi lançado?",
+      "description": "Faz tempo hein",
+      "answer": 0,
       "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
+        "2009",
+        "2010",
+        "2011",
+        "2012"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media.giphy.com/media/l0MYMQi4tWuxp2F68/giphy.gif",
+      "title": "Qual empresa de video game desenvolveu o jogo League of Legends?",
+      "description": "Porrada...",
+      "answer": 2,
+      "alternatives": [
+         "Activision",
+         "Capcom",
+         "Riot Games"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/13tsY9zEBndlMA/giphy.gif",
+      "title": "Quantas lanes (caminhos) existem no mapa Summoner's Rift?",
+      "description": "Vou top!",
+      "answer": 2,
+      "alternatives": [
+         "uma",
+         "duas",
+         "três"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/Y3BfPFOYLACRgGNO5j/giphy.gif",
+      "title": "League of Legends foi feito somente para Microsoft Windows?",
+      "description": "Hummmm...",
+      "answer": 1,
+      "alternatives": [
+         "Verdade",
+         "Falso"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/B61NQBrGUZwn3vt41g/giphy.gif",
+      "title": "Quais animais são vistos no mapa Howling Abyss?",
+      "description": "Pequenos animais brancos...",
       "answer": 0,
       "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
+         "Poros",
+         "Unicornios",
+         "Sereias"
+      ]
+    },
+    {
+      "image": "https://pa1.narvii.com/5803/1683876bde1e1f53bda6484ad1930dc0611d522d_hq.gif",
+      "title": "Qual tribo pertencem os campeões Braum, Gragas, Nunu e Tryndamere?",
+      "description": "São leais a Princesa Ashe",
+      "answer": 1,
+      "alternatives": [
+         "Frostguard",
+         "Avarosan",
+         "Winter's Claw"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/hDaWSUUC9cvHwD9dK4/giphy.gif",
+      "title": "Qual é a terceira irmã que participa com Serylda e Avarosa?",
+      "description": "Three Sisters triad",
+      "answer": 0,
+      "alternatives": [
+         "Lissandra",
+         "Akali",
+         "Katarina"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/QBROQo6fcaYkKYk90y/giphy.gif",
+      "title": "Qual personagem de League of Legends lidera a tribo Winter's Claw?",
+      "description": "Também conhecida como Winter's Wrath",
+      "answer": 0,
+      "alternatives": [
+         "Sejuani",
+         "Lissandra",
+         "Quinn"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/CPbNgztszjpMHYU7Xt/giphy.gif",
+      "title": "Onde os jogadores invocam e renascem no mapa Summoner's Rift?",
+      "description": "Invocadores...",
+      "answer": 0,
+      "alternatives": [
+         "The Fountain",
+         "The Jungle",
+         "The Nexus"
+      ]
+    },
+    {
+      "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/tiles/Cassiopeia_0.jpg",
+      "title": "Cassiopeia é metade mulher e metade qual criatura?",
+      "description": "Venenosa...",
+      "answer": 2,
+      "alternatives": [
+         "Leão",
+         "Cavalo",
+         "Cobra"
       ]
     }
   ],

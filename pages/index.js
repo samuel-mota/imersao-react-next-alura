@@ -8,8 +8,17 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import GitHubCorner from '../src/components/GitHubCorner';
 import Footer from '../src/components/Footer';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
-export const QuizContainer = styled.div`
+// const BackgroundImage = styled.div`
+//   background-image: url(${db.bg});
+//   flex: 1;
+//   background-size: cover;
+//   background-position: center;
+// `
+
+const QuizContainer = styled.div`
   width: 100%;
   max-width: 350px;
   padding-top: 45px;
@@ -20,13 +29,6 @@ export const QuizContainer = styled.div`
   }
 `;
 
-// const BackgroundImage = styled.div`
-//   background-image: url(${db.bg});
-//   flex: 1;
-//   background-size: cover;
-//   background-position: center;
-// `
-
 export default function Home() {
   const router = useRouter();
   const [name, setName] = useState('');
@@ -34,6 +36,9 @@ export default function Home() {
   return (
     <>
       <QuizBackground backgroundImage={db.bg}>
+        {/* <Head>
+          <title>{db.title}</title>
+        </Head> */}
         <QuizContainer>
           <QuizLogo />
           <Widget>
@@ -47,17 +52,18 @@ export default function Home() {
                 router.push(`/quiz?name=${name}`);
               }}
               >
-                <input
+                <Input
+                  name="nomeDoUsuario"
                   placeholder="Qual seu nome?"
                   type="text"
                   onChange={(event) => {
                     setName(event.target.value);
                   }}
+                  value={name}
                 />
-                <button type="submit" disabled={name.length === 0}>
-                  Jogar
-                  {` ${name}`}
-                </button>
+                <Button type="submit" disabled={name.length === 0}>
+                  {`Jogar ${name}`}
+                </Button>
               </form>
             </Widget.Content>
           </Widget>
@@ -71,7 +77,7 @@ export default function Home() {
           </Widget>
           <Footer />
         </QuizContainer>
-        <GitHubCorner projectUrl="https://github.com/omariosouto" />
+        <GitHubCorner projectUrl="https://github.com/samuel-mota" />
       </QuizBackground>
     </>
   );
